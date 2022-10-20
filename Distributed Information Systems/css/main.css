@@ -424,6 +424,27 @@ p {
     margin-bottom: 150px;
 }
 
+.container{
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.box{
+      padding:20px;
+      border-radius:10px;
+      display:flex;
+      align-items:left;
+      justify-content:left;
+      font-family:sans-serif;
+}
+
+
 /*-----------------------------------------------------------
  7. Portfolio
 -------------------------------------------------------------*/
