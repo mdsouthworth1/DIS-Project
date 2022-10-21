@@ -417,11 +417,55 @@ p {
     margin-bottom: 30px;
 }
 
+/* Shyam */
+.expandMoreContent {
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+}
+
+.expandMoreContent.expand-active {
+    height: auto;
+    transition: height 0.5s ease-in-out;
+}
+
+.expandMoreHolder {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.btn-expand-more {
+    cursor: pointer;
+    border: 1px;
+    display: inline-block;
+}
+
+/* .center_this_post{
+    margin-top: 75px;
+    text-align: center;
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 0px;
+} */
+/* container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto */
+    /* .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px} */
+
 /*-----------------------------------------------------------
   6. About
 -------------------------------------------------------------*/
 .about {
     margin-bottom: 150px;
+}
+
+.tab_width{
+    margin-top:150px;
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
 }
 
 /*-----------------------------------------------------------
