@@ -424,6 +424,34 @@ p {
     margin-bottom: 150px;
 }
 
+.grid-container {
+    grid-template-columns: auto;
+    justify-content: space-around;
+    grid-gap: 30px;
+    margin-bottom: 30px;
+    display: inline-grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.grid-item {
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-item:nth-child(3):last-child {
+    grid-column: span 2;
+}
+  
+.grid-item:nth-child(4) {
+    grid-column: 2;
+}
+
+.grid-image {
+    text-align: center;
+
+}
 /*-----------------------------------------------------------
  7. Portfolio
 -------------------------------------------------------------*/
