@@ -76,5 +76,6 @@ def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
+
 if __name__ == "__main__":
     app.run()
