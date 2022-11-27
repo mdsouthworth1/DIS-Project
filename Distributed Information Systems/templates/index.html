@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+<!-- HERO SECTION -->
+    <div class="container-fluid hero">
+        <img alt="" src="{{ url_for('static', filename='images/hero.png')}}">
+        <div class="container">
+            <!-- Hero Title -->
+            <h1>The Spirit of<br>Digital Agency.</h1>
+            <!-- Hero Title Info -->
+            <p>
+                We are upcoming Technology Consulting and Management company<br>
+                in the city of Tampa, which is known for the vibrant Ybor City,<br>
+                lush parks, and business hub.
+            </p>
+            <div class="hero-btns">
+                <!-- Hero Btn First -->
+                <a data-scroll href="{{ url_for('about') }}">More About us</a>
+                <!-- Hero Btn Second -->
+                <a data-scroll href="{{ url_for('contact') }}">Get in Touch.</a>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}

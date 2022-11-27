@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block title %}
+Contact Us
+{% endblock %}
+{% block content %}
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h5>CONTACT US</h5>
+                <h2>Get in Touch</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 email">
+                <input id="email" pattern=".+@globex.com" placeholder="Your email" required size="30" type="email">
+            </div>
+            <div class="col-12 col-lg-6 email">
+                <input id="subject" placeholder="Subject" required size="30" type="subject">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 message">
+                <textarea cols="1" id="message" name="message" rows="5">Message here...</textarea>
+            </div>
+            <div class="col-12">
+                <div class="hero-btns contact-btn">
+                    <!-- Send Message Btn -->
+                    <a href="#">Send Message</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

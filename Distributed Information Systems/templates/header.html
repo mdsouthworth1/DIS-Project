@@ -1,0 +1,46 @@
+<header id="home">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <!-- Change Logo Img Here -->
+            <a class="navbar-brand" href="#"><img alt="" src="{{ url_for('static', filename='images/dis_logo.png')}}"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+                <div class="interactive-menu-button">
+                    <a href="#">
+                        <span>Menu</span>
+                    </a>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <!-- Nav Link -->
+                        <a class="nav-link" data-scroll href="{{ url_for('home') }}">Home<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Nav Link -->
+                        <a class="nav-link" data-scroll href="{{ url_for('about') }}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Nav Link -->
+                        <a class="nav-link" data-scroll href="{{ url_for('portfolio') }}">Portfolio</a>
+                    </li>
+<!--                    <li class="nav-item">-->
+<!--                        &lt;!&ndash; Nav Link &ndash;&gt;-->
+<!--                        <a class="nav-link" data-scroll href="./blog.html">Blog</a>-->
+<!--                    </li>-->
+                    <li class="nav-item">
+                        <!-- Nav Link -->
+                        <a class="nav-link" data-scroll href="{{ url_for('services') }}">Services</a>
+                    </li>
+                </ul>
+                <span class="contact-btn my-2 my-lg-0">
+                    <!-- Contact Us Button -->
+                    <a href="{{ url_for('contact') }}"><button>Contact Us</button></a>
+                </span>
+            </div>
+        </nav>
+    </div>
+</header>
