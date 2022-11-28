@@ -1,0 +1,133 @@
+{"intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+       "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+       "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+      },
+        {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+      },
+      {"tag": "options",
+       "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+       "responses": ["I can guide you through management problems, order tracking, person to be contacted and Department related queries","I can provide support related to following problems: technical advice, management related questions, procurement, outsourcing, and manufacturing decisions."]
+      },
+      {"tag": "search_person_by_id",
+       "patterns": ["I want an appoitment with Shyam","set an appointment with Shailendra"],
+       "responses": ["Creating an appointment."]
+      },
+      {"tag": "appointment status",
+       "patterns": ["Is my appointment fixed?","Do I have an appointment today?"],
+       "responses": ["Yes","No! Not Yet"]
+      },
+       {"tag": "cost_lowering",
+       "patterns": ["Cost Lowering changes to be made?","what changes could lower cost?"],
+       "responses": ["Increase user engagement, customer turnover and leads, and improve consistency."]
+      },
+       {"tag": "forgot_password",
+       "patterns": ["I forgot my Login password?","what to do when someone forgets Login password?","I forgot my Laptop password","Forgot Wifi password"],
+       "responses": ["Please enter your email."]
+      },
+      {"tag": "manufacturing_problems",
+       "patterns": ["Find me a manufacturer nearby"],
+       "responses": ["The nearest manufacturer is Tampa, FL"]
+      },
+      {"tag": "search_department",
+       "patterns": ["I want to know the various departments in this company"],
+       "responses": ["The department are: Advertising , IT, Web development, Marketing"]
+      },
+      {"tag": "competitors_in_market",
+       "patterns": ["what are challenging events", "what are the threats in the market"],
+       "responses": ["Recent collapse of crypt, regulations and world events."]
+      },
+     {"tag": "key_customers",
+       "patterns": ["Our Target customers", "who are your key customers"],
+       "responses": ["Our target customers are small businesses with new marketing departments with 50-200 employeees"]
+      },
+      {"tag": "connect_people",
+       "patterns": ["I want to meet the head of HR/IT/Projects department","I want to meet management."],
+       "responses": ["I will just check if he is available or on leave."]
+      },
+      {"tag": "project_handling_queries",
+       "patterns": ["complaint has been raised for Insufficient Team Skills","Miscommunication Conflicts needs to be resolved","Risk Management issue has occured","skilled employees needed urgently"],
+       "responses": ["Please contact the project depatment"]
+      },
+      {"tag": "solve_problems",
+       "patterns": ["Lack of product clarity","the specifications of product is not clear to customer. what should we do"],
+       "responses": ["Please enter product and customer id."]
+      },
+       {"tag": "version_update",
+       "patterns": ["user needs the updated software version","user demands software update"],
+       "responses": ["Version updation request raised"]
+        },
+      {"tag": "HR_related_problem",
+       "patterns": ["problem related to Job design and analysis","query based on Workforce planning","Training and development issues are to be handled","Compensation and benefits of the working employee","Legal issues of department like accidents in the company"],
+       "responses": ["Please Contact the HR team for this problem."]
+      },
+  {"tag": "factors_impacting_sale",
+       "patterns": ["Impact on sale?","factors impacting sale this year?"],
+       "responses": ["Local elections will impact our sale this year","Sales might be impacted due to crypt regulations, this year"]
+      },
+  
+  {"tag": "predict_performance",
+       "patterns": ["how have we improved our sale from last year?","what is the profit this year?"],
+       "responses": ["we have improved our sales by 30%","Profits are up 20%"]
+      },
+       {"tag": "customer_satisfaction",
+       "patterns": ["how was the customer response","Is the customer happy?","what was the customer feedback?"],
+       "responses": ["Customer was happy and has given good rating"]
+      },
+  {"tag": "commission",
+       "patterns": ["what is the Commission rate?","Commission rate on each product?"],
+       "responses": ["Commission rate is 5% on manufacturing, 25% on advertising, 10% on website"]
+      },
+  {"tag": "invalid",
+       "patterns": ["Marry me","I love You","date me","chat with me","I am bored"],
+       "responses": ["Please ask an organization related query."]
+      },
+  {"tag": "noans",
+       "patterns": ["why","how","when","I","you"],
+       "responses": ["I can't understand your question.","Please elaborate your question."]
+      },
+  {"tag": "predict_delay",
+       "patterns": ["why my order delayed"],
+       "responses": ["Delay is due to manufacuring","Delay is due to inavailable components"],
+       "context": [""]
+      },
+      {"tag": "name",
+       "patterns": ["what is your name?","what should I call you?"],
+       "responses": ["I'm Ada","Hi !I'm Ada"]
+      },
+       {"tag": "about",
+       "patterns": ["how you doing?","how are you"],
+       "responses": ["Thanks For asking! How can I help you?"]
+      },
+    {"tag": "Weather",
+       "patterns": ["what is the weather today?"],
+       "responses": ["It's 78F according to accuweather"]
+      },
+    {"tag": "leave",
+       "patterns": ["Is Michel Sharma on leave?","Is Siddhart Roy present today?","Is Shantanu Bhatt in office?"],
+       "responses": ["Give me a moment! I'll  check","yes","no"]
+      },
+    {"tag": "hours",
+       "patterns": ["Opening hours of the cafeteria?","when does the cafeteria open","office canteen opening time"],
+       "responses": ["It is open from Monday-Saturday 9:00am-7:30pm"]
+      },
+  {"tag":"domain",
+      "patterns":["How to improve team members domain knowledge","improving domain knowledge of team members"],
+      "responses":["set up key meetings and workshop,create a shared drive for information,Hold informal sharing session"]
+  }
+ ]
+}
